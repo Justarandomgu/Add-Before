@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Reset default margin and padding for the ul and li elements */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for the navigation bar */
+.navigation-bar {
+    background-color: #333; /* Background color for the navigation bar */
+    overflow: hidden;
+}
+
+/* Style for the navigation links */
+.navigation-bar ul {
+    display: flex;
+    justify-content: left;
+    padding: 10px 0; /* Adjust spacing as needed */
+}
+
+.navigation-bar li {
+    display: inline;
+    padding-left: 30px; /* Adjust spacing as needed */
+}
+
+.navigation-bar li:hover {
+    transform: translateY(-20px);
+    transition: 30ms;
+}
+
+
+.navigation-bar a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 14px 16px; /* Adjust padding as needed */
+    display: inline-block;
+}
+
+/* Style for the navigation links on hover */
+.navigation-bar a:hover {
+    background-color: #555; /* Background color on hover */
+    border-radius: 5px; /* Add some rounded corners on hover */
+}
+
+/* Style for the active link */
+.navigation-bar .active a {
+    background-color: #ff6600; /* Background color for active link */
+    color: #fff; /* Text color for active link */
+    border-radius: 5px; /* Add rounded corners for the active link */
+}
